@@ -10,7 +10,7 @@ app.use(cors());
 const jsonParser = bodyParser.json()
 
 app.get('/', (req, res) => {
-  res.send("hello, world!);
+  res.send("hello, world!");
     
 })
 
