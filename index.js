@@ -34,4 +34,4 @@ app.post('/api', jsonParser, async (req, res) => {
     }
 })
 
-app.listen(4000, () => console.log(`server is running on 4000`))
+app.listen(3000, () => console.log(`server is running on 3000`))
